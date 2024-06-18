@@ -30,5 +30,31 @@
             }
         }
     }
+
+    &__services {
+        margin-top: 1.5em;
+        &__title {
+            @include subtitleOldStandard(2em);
+            padding-bottom: 0.5em;
+        }
+
+        &__content {
+            display: flex;
+            justify-content: flex-start;
+
+            ul {
+                @include textRoboto(#777);
+                font-weight: 400;
+                list-style: '+';
+                padding-left: 0.5em;
+                padding-right: 1em;
+
+                li {
+                    padding-left: 0.5em;
+                    padding-bottom: 0.5em;
+                }
+            }
+        }
+    }
     
 }
