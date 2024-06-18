@@ -2,8 +2,11 @@
 @import './mixins.scss';
 
 .header {
+
+    padding-bottom: 3em;
     &__information {
         display: none;
+        
     }
 
     &__nav {
