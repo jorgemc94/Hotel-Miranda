@@ -55,6 +55,45 @@
                 }
             }
         }
+
+    }
+
+    &__contact {
+        margin-top: 1.5em;
+
+        &__title {
+            @include subtitleOldStandard(2em);
+            padding-bottom: 0.5em;
+        }
+
+        &__content {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            padding-bottom: 2em;
+            &__image {
+                display: block;
+                img {
+                    width: 2.5em;
+                    height: 2.5em;
+                }
+            }
+            
+            &__text {
+                display: inline-block;
+                padding-left: 1.5em;
+
+                &__title {
+                    display: block;
+                    @include subtitleOldStandard(1em);
+                }
+
+                &__description {
+                    @include description(#777);
+                    font-size: 0.7em;
+                }
+            }
+        }
     }
     
 }
