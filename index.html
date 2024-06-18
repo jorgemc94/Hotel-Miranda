@@ -10,7 +10,9 @@
         <link href='https://fonts.googleapis.com/css?family=Old Standard TT' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         <script src="scripts/navbar.js" defer></script>
+        <script src="scripts/swiper.js" defer></script>
     </head>
     <body>
         <header class="header">
@@ -77,12 +79,54 @@
                 <div class="aboutus__article__image">
                     <img class="aboutus__article__image__img" src="./assets/room.jpg" alt="room" />
                 </div>
-                <div class="aboutus__article__content">
+                <div class="aboutus__article__content aboutus__article__content--black">
                     <img class="aboutus__article__content__logo" src="./assets/calendar.svg" alt="team" />
-                    <h1 class="aboutus__article__content__title">Luxury Room</h1>
-                    <p class="aboutus__article__content__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                    <h1 class="aboutus__article__content__title aboutus__article__content__title--white">Luxury Room</h1>
+                    <p class="aboutus__article__content__description aboutus__article__content__description--white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                 </div>
             </article>
+        </section>
+        <section class="rooms">
+            <h4 class="rooms__subtitle">ROOMS</h4>
+            <h1 class="rooms__title">Hand Picked Rooms</h1>
+            <article class="rooms__icons">
+                <img class="rooms__icons__img" src="./assets/bed.svg" alt="bed" />
+                <img class="rooms__icons__img" src="./assets/wifi.svg" alt="wifi" />
+                <img class="rooms__icons__img" src="./assets/car.svg" alt="car" />
+                <img class="rooms__icons__img" src="./assets/gym.svg" alt="gym" />
+                <img class="rooms__icons__img" src="./assets/nosmoking.svg" alt="nosmoking" />
+                <img class="rooms__icons__img" src="./assets/cocktail.svg" alt="cocktail" />
+            </article>
+            <div class="swiper swiper--rooms">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="swiper__image" src="./assets/individual.jpg" alt="individual">
+                        <article>
+                            <h2>Individual Room</h2>
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore </h4>
+                            <span>$90</span><p>/Nigth</p>
+                        </article> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper__image" src="./assets/double.jpg" alt="double">
+                        <article>
+                            <h2>Double Room</h2>
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</h4>
+                            <span>$150</span><p>/Nigth</p>    
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper__image" src="./assets/suite.jpg" alt="suite">
+                        <article>
+                            <h2>Suite Room</h2>
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</h4>
+                            <span>$250</span><p>/Nigth</p>
+                        </article> 
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
         </section>
         <footer class="footer">
             <div class="footer__background">
@@ -153,4 +197,5 @@
             </div>
         </footer>
     </body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </html>
