@@ -266,6 +266,7 @@ body {
   line-height: 0.951875em;
   letter-spacing: 0.175em;
   color: #FFF;
+  cursor: pointer;
   margin-bottom: 0.8em;
 }
 .banner__buttonTransparent {
@@ -279,6 +280,7 @@ body {
   line-height: 0.951875em;
   letter-spacing: 0.175em;
   color: #FFF;
+  cursor: pointer;
   margin-top: 0.8em;
 }
 
@@ -286,14 +288,14 @@ body {
   background-color: #222;
   padding: 2.5em 1.375em;
 }
-.form label {
+.form__text {
   color: #FFF;
   font-family: "Roboto";
   font-size: 1em;
   font-weight: 700;
   line-height: 1.171875em;
 }
-.form input {
+.form__input {
   width: 100%;
   background-color: transparent;
   border: none;
@@ -306,7 +308,7 @@ body {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
-.form button {
+.form__button {
   width: 15.625em;
   background-color: #BEAD8E;
   border: none;
@@ -317,6 +319,7 @@ body {
   line-height: 0.951875em;
   letter-spacing: 0.175em;
   color: #FFF;
+  cursor: pointer;
   margin-top: 1em;
 }
 

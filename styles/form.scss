@@ -5,11 +5,11 @@
     background-color: #222;
     padding: 2.5em 1.375em;
 
-    label {
+    &__text {
         @include textRoboto(#FFF);
     }
 
-    input {
+    &__input {
         width: 100%;
         background-color: transparent;
         border: none;
@@ -23,7 +23,7 @@
         margin-bottom: 1.5em;
     }
 
-    button {
+    &__button {
         @include button(15.625em, #BEAD8E, none);
         margin-top: 1em;
     }
