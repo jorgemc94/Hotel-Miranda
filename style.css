@@ -8,4 +8,101 @@ body {
   min-width: 320px;
 }
 
+.header__information {
+  display: none;
+}
+.header__nav {
+  padding: 1em;
+  width: 100%;
+  position: fixed;
+  background-color: #FFF;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2901960784);
+}
+.header__nav__menu {
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 1.3em;
+  width: 1.5em;
+  height: 1.5em;
+}
+.header__nav__menu img {
+  display: none;
+}
+.header__nav__menu img.--visible {
+  display: inline-block;
+}
+.header__nav__logo {
+  display: inline-block;
+  width: 58%;
+}
+.header__nav__logo__link {
+  text-decoration: none;
+  color: #111;
+}
+.header__nav__logo__link__image {
+  box-shadow: 0em 0.9em 1.5em 0em rgba(139, 139, 139, 0.2509803922);
+  width: 2.3em;
+  height: 2.3em;
+  display: inline-block;
+  padding: 0.8em 0.8em;
+  margin-right: 0.5em;
+}
+.header__nav__logo__link__title {
+  display: inline-block;
+  vertical-align: text-bottom;
+  text-align: center;
+}
+.header__nav__logo__link__title span {
+  display: block;
+  font-family: "Archivo";
+  line-height: 0.75em;
+  letter-spacing: 0.08em;
+  font-size: 0.65em;
+}
+.header__nav__list {
+  width: 100%;
+  display: none;
+  position: absolute;
+  bottom: -12.5em;
+  left: 0;
+  background-color: #FFF;
+  box-shadow: 0em 0.3em 0.25em 0em rgba(0, 0, 0, 0.2901960784);
+  height: 12.35em;
+}
+.header__nav__list ul {
+  padding: 2.75em 1.5em;
+  list-style-type: none;
+  padding-bottom: 0em;
+}
+.header__nav__list ul li {
+  color: #111;
+  font-family: "Archivo";
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.088125em;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+  margin-bottom: 1em;
+}
+.header__nav__list ul li a {
+  padding: 0.5em 0em;
+  text-decoration: none;
+  color: #111;
+}
+.header__nav__list.--visible {
+  display: block;
+}
+.header__nav__icons {
+  display: inline-block;
+  width: 25%;
+  vertical-align: sub;
+  text-align: end;
+}
+.header__nav__icons__icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 1em;
+}
+
 /*# sourceMappingURL=style.css.map */
