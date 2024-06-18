@@ -72,7 +72,8 @@
             &__description {
                 @include textRoboto(#111);
                 text-align: center;
-                padding: 0.5em 3em;
+                padding: 0.5em 1em;
+                font-weight: 400;
 
                 &--white {
                     color: #FFF;
