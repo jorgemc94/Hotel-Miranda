@@ -248,8 +248,6 @@ body {
   color: #FFF;
   font-size: 3.5em;
   font-weight: 400;
-  line-height: 3.75em;
-  letter-spacing: -0.1125em;
   line-height: normal;
   padding-right: 1em;
   padding-top: 0.5em;
@@ -321,6 +319,93 @@ body {
   color: #FFF;
   cursor: pointer;
   margin-top: 1em;
+}
+
+.aboutus {
+  margin-top: 2em;
+  width: 100%;
+  padding: 0em 1.375em;
+}
+.aboutus__subtitle {
+  color: #777;
+  font-family: "Archivo";
+  font-size: 0.8125em;
+  font-weight: 700;
+  line-height: 1.125em;
+  letter-spacing: 0.175em;
+  padding-bottom: 1.5em;
+}
+.aboutus__title {
+  font-family: "Old Standard TT";
+  color: #111;
+  font-size: 3.5em;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: -1.2px;
+  padding-bottom: 0.5em;
+}
+.aboutus__description {
+  color: #777;
+  font-family: "Archivo";
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 1.5em;
+  padding-bottom: 1.5em;
+}
+.aboutus__button {
+  width: 13.5em;
+  background-color: #BEAD8E;
+  border: none;
+  height: 3.75em;
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 0.875em;
+  line-height: 0.951875em;
+  letter-spacing: 0.175em;
+  color: #FFF;
+  cursor: pointer;
+  margin-bottom: 0.8em;
+  margin-bottom: 2em;
+}
+.aboutus__article {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+.aboutus__article__image {
+  width: 16.875em;
+  margin: 0 auto;
+  margin-bottom: 1.5em;
+}
+.aboutus__article__image__img {
+  width: 100%;
+}
+.aboutus__article__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.aboutus__article__content__logo {
+  width: 4.25em;
+  height: 3.12em;
+  margin: 0 auto;
+}
+.aboutus__article__content__title {
+  font-family: "Old Standard TT";
+  color: #111;
+  font-size: 1.875em;
+  font-weight: 400;
+  text-align: center;
+  padding: 0.5em 0em;
+}
+.aboutus__article__content__description {
+  color: #111;
+  font-family: "Roboto";
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.171875em;
+  text-align: center;
+  padding: 0.5em 3em;
 }
 
 /*# sourceMappingURL=style.css.map */
