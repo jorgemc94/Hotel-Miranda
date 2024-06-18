@@ -8,6 +8,9 @@ body {
   min-width: 320px;
 }
 
+.header {
+  padding-bottom: 3em;
+}
 .header__information {
   display: none;
 }
@@ -102,6 +105,34 @@ body {
   display: inline-block;
   width: 1.5em;
   height: 1.5em;
+  margin-right: 1em;
+}
+
+.footer {
+  padding-top: 3em;
+  padding-left: 1.375em;
+  padding-right: 1.375em;
+  background-image: url("../assets/bg-footer.png");
+  background-repeat: no-repeat;
+}
+.footer__background {
+  width: 100%;
+  height: fit-content;
+  background-color: rgba(255, 255, 255, 0.98);
+}
+.footer__header__logo {
+  width: 15.319175em;
+  height: 5em;
+}
+.footer__header__text {
+  color: #777;
+  font-family: "Archivo";
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 1.5em;
+  padding: 1.5em 0em;
+}
+.footer__header__icons img {
   margin-right: 1em;
 }
 
