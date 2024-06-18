@@ -1,0 +1,32 @@
+
+@import './mixins.scss';
+
+.banner {
+    margin-top: 1em;
+    background-color: #333;
+    padding: 2.5em 1.375em;
+
+    &__subtitle {
+        @include description(#FFF);
+        width: 50%;
+        padding-top: 1em;
+    }
+
+    &__title {
+        @include title(#FFF, 3.5em);
+        line-height: normal;
+        padding-right: 1em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+
+    &__buttonColor {
+        @include button (13.5em,#BEAD8E, none);
+        margin-bottom: 0.8em;
+    }
+
+    &__buttonTransparent {
+        @include button (13.5em, transparent, 2px solid #FFFFFF54);
+        margin-top: 0.8em;
+    }
+}
