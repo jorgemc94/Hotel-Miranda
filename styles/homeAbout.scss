@@ -32,11 +32,9 @@
     &__article {
         display: flex;
         flex-direction: column;
-        margin-bottom: 2em;
         &__image{
             width: 16.875em;
             margin: 0 auto;
-            margin-bottom: 1.5em;
             
             &__img {
                 width: 100%;
@@ -47,6 +45,13 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            padding: 1.5em 0em;
+            width: 16.875em;
+            margin: 0 auto;
+
+            &--black {
+                background-color: #222;
+            }
 
             &__logo {
                 width: 4.25em;
@@ -58,12 +63,20 @@
                 @include title(#111, 1.875em);
                 text-align: center;
                 padding: 0.5em 0em;
+
+                &--white {
+                    color: #FFF;
+                }
             }
 
             &__description {
                 @include textRoboto(#111);
                 text-align: center;
                 padding: 0.5em 3em;
+
+                &--white {
+                    color: #FFF;
+                }
             }
         }
     }
