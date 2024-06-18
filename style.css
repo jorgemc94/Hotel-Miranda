@@ -282,4 +282,42 @@ body {
   margin-top: 0.8em;
 }
 
+.form {
+  background-color: #222;
+  padding: 2.5em 1.375em;
+}
+.form label {
+  color: #FFF;
+  font-family: "Roboto";
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.171875em;
+}
+.form input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #BEAD8E;
+  color: #686868;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 0.875em;
+  line-height: 1.025625;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+.form button {
+  width: 15.625em;
+  background-color: #BEAD8E;
+  border: none;
+  height: 3.75em;
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 0.875em;
+  line-height: 0.951875em;
+  letter-spacing: 0.175em;
+  color: #FFF;
+  margin-top: 1em;
+}
+
 /*# sourceMappingURL=style.css.map */
