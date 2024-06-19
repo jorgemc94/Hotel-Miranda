@@ -20,6 +20,7 @@ body {
   position: fixed;
   background-color: #FFF;
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2901960784);
+  z-index: 99;
 }
 .header__nav__menu {
   display: inline-block;
@@ -225,6 +226,384 @@ body {
   font-size: 1em;
   font-weight: 700;
   line-height: 1.171875em;
+}
+
+.banner {
+  margin-top: 1em;
+  background-color: #333;
+  padding: 2.5em 1.375em;
+}
+.banner__subtitle {
+  color: #FFF;
+  font-family: "Archivo";
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 1.5em;
+  width: 50%;
+  padding-top: 1em;
+}
+.banner__title {
+  font-family: "Old Standard TT";
+  color: #FFF;
+  font-size: 3.5em;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.banner__buttonColor {
+  width: 13.5em;
+  background-color: #BEAD8E;
+  border: none;
+  height: 3.75em;
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 0.875em;
+  line-height: 0.951875em;
+  letter-spacing: 0.175em;
+  color: #FFF;
+  cursor: pointer;
+  margin-bottom: 0.8em;
+}
+.banner__buttonTransparent {
+  width: 13.5em;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.3294117647);
+  height: 3.75em;
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 0.875em;
+  line-height: 0.951875em;
+  letter-spacing: 0.175em;
+  color: #FFF;
+  cursor: pointer;
+  margin-top: 0.8em;
+}
+
+.form {
+  background-color: #222;
+  padding: 2.5em 1.375em;
+}
+.form__text {
+  color: #FFF;
+  font-family: "Roboto";
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.171875em;
+}
+.form__input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #BEAD8E;
+  color: #686868;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 0.875em;
+  line-height: 1.025625;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+.form__button {
+  width: 15.625em;
+  background-color: #BEAD8E;
+  border: none;
+  height: 3.75em;
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 0.875em;
+  line-height: 0.951875em;
+  letter-spacing: 0.175em;
+  color: #FFF;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+.aboutus {
+  margin-top: 2em;
+  width: 100%;
+  padding: 0em 1.375em;
+}
+.aboutus__subtitle {
+  color: #777;
+  font-family: "Archivo";
+  font-size: 0.8125em;
+  font-weight: 700;
+  line-height: 1.125em;
+  letter-spacing: 0.175em;
+  padding-bottom: 1.5em;
+}
+.aboutus__title {
+  font-family: "Old Standard TT";
+  color: #111;
+  font-size: 3.5em;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: -1.2px;
+  padding-bottom: 0.5em;
+}
+.aboutus__description {
+  color: #777;
+  font-family: "Archivo";
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 1.5em;
+  padding-bottom: 1.5em;
+}
+.aboutus__button {
+  width: 13.5em;
+  background-color: #BEAD8E;
+  border: none;
+  height: 3.75em;
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 0.875em;
+  line-height: 0.951875em;
+  letter-spacing: 0.175em;
+  color: #FFF;
+  cursor: pointer;
+  margin-bottom: 0.8em;
+  margin-bottom: 2em;
+}
+.aboutus__article {
+  display: flex;
+  flex-direction: column;
+}
+.aboutus__article__image {
+  width: 16.875em;
+  margin: 0 auto;
+}
+.aboutus__article__image__img {
+  width: 100%;
+}
+.aboutus__article__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5em 0em;
+  width: 16.875em;
+  margin: 0 auto;
+}
+.aboutus__article__content--black {
+  background-color: #222;
+}
+.aboutus__article__content__logo {
+  width: 4.25em;
+  height: 3.12em;
+  margin: 0 auto;
+}
+.aboutus__article__content__title {
+  font-family: "Old Standard TT";
+  color: #111;
+  font-size: 1.875em;
+  font-weight: 400;
+  text-align: center;
+  padding: 0.5em 0em;
+}
+.aboutus__article__content__title--white {
+  color: #FFF;
+}
+.aboutus__article__content__description {
+  color: #111;
+  font-family: "Roboto";
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.171875em;
+  text-align: center;
+  padding: 0.5em 1em;
+  font-weight: 400;
+}
+.aboutus__article__content__description--white {
+  color: #FFF;
+}
+
+.rooms {
+  padding: 0em 1.375em;
+  margin-top: 2.5em;
+}
+.rooms__subtitle {
+  color: #777;
+  font-family: "Archivo";
+  font-size: 0.8125em;
+  font-weight: 700;
+  line-height: 1.125em;
+  letter-spacing: 0.175em;
+  padding-bottom: 1.5em;
+  text-align: center;
+}
+.rooms__title {
+  font-family: "Old Standard TT";
+  color: #111;
+  font-size: 3.5em;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: -1.2px;
+  padding-bottom: 0.5em;
+}
+.rooms__icons {
+  width: 70%;
+  background-color: #FFF;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  align-content: space-around;
+  margin: 0 auto;
+}
+.rooms__icons__img {
+  width: 1.5em;
+  height: 1.5em;
+}
+.rooms article {
+  text-align: center;
+}
+.rooms article h2 {
+  font-size: 1.75em;
+  font-family: "Old Standard TT";
+  color: #222;
+  font-weight: 400;
+  line-height: 1.5em;
+  text-align: center;
+}
+.rooms article h4 {
+  color: #777;
+  font-family: "Archivo";
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 1.5em;
+  padding: 0em 2em;
+}
+.rooms article span {
+  color: #BEAD8E;
+  font-size: 2em;
+  font-family: "Archivo";
+  display: inline-block;
+}
+.rooms article p {
+  color: #BEAD8E;
+  font-family: "Archivo";
+  font-weight: 700;
+  display: inline-block;
+}
+
+.swiper {
+  width: 100%;
+}
+.swiper--rooms {
+  height: auto;
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next {
+  width: 3em;
+  height: 3em;
+  color: #FFF;
+  background-color: #BDAC8D;
+  transform: translateY(-170%);
+}
+.swiper .swiper-button-prev::after,
+.swiper .swiper-button-next::after {
+  font-size: 1em;
+}
+.swiper .swiper-button-disabled {
+  background-color: #FFF;
+  color: #111;
+  font-weight: 700;
+}
+.swiper-pagination-bullet {
+  background-color: #BDAC8D !important;
+}
+
+.video {
+  padding: 2.5em 1.375em;
+  margin-top: 1.5em;
+  background-color: #222;
+}
+.video__subtitle {
+  color: #BDAC8D;
+  font-family: "Archivo";
+  font-size: 0.8125em;
+  font-weight: 700;
+  line-height: 1.125em;
+  letter-spacing: 0.175em;
+  padding-bottom: 1.5em;
+}
+.video__title {
+  font-family: "Old Standard TT";
+  color: #FFF;
+  font-size: 3.5em;
+  font-weight: 400;
+  letter-spacing: -1.2px;
+  padding-bottom: 0.5em;
+}
+.video__description {
+  color: #C2C2C2;
+  font-family: "Archivo";
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 1.5em;
+  padding-bottom: 1.5em;
+}
+.video__video {
+  width: 100%;
+  padding-bottom: 1.5em;
+}
+.video__button {
+  width: 13.5em;
+  background-color: #BEAD8E;
+  border: none;
+  height: 3.75em;
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 0.875em;
+  line-height: 0.951875em;
+  letter-spacing: 0.175em;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.facts {
+  width: 100%;
+  padding: 2.5em 1.375em;
+  background-color: #222;
+  margin-top: 1.5em;
+}
+.facts__content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.facts__content__logo {
+  width: 4.875em;
+  height: 5em;
+  margin: 0 auto;
+}
+.facts__content__figures {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.facts__content__figures__number {
+  display: inline-block;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 3.75em;
+  font-weight: 700;
+  color: #FFF;
+}
+.facts__content__figures__plus {
+  display: inline-block;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 1em;
+  color: #FFF;
+  padding-bottom: 0.6em;
+  padding-left: 0.5em;
+}
+.facts__content__text {
+  font-family: "Roboto";
+  text-align: center;
+  font-weight: 700;
+  font-size: 1em;
+  color: #999;
 }
 
 /*# sourceMappingURL=style.css.map */

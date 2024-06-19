@@ -1,0 +1,62 @@
+
+@import './mixins.scss';
+
+.rooms {
+    padding: 0em 1.375em;
+    margin-top: 2.5em;
+
+    &__subtitle{
+        @include subtitleArchivo(#777);
+        padding-bottom: 1.5em;
+        text-align: center;
+    }
+
+    &__title {
+        @include title(#111, 3.5em);
+        text-align: center;
+        letter-spacing: -1.2px;
+        padding-bottom: 0.5em;
+    }
+
+    &__icons {
+        width: 70%;
+        background-color: #FFF;
+        display: grid;
+        grid-template-columns: repeat(6, auto);
+        align-content: space-around;
+        margin: 0 auto;
+
+        &__img {
+            width: 1.5em;
+            height: 1.5em;
+        }
+    }
+
+   article {
+    text-align: center;
+    h2 {
+        @include subtitleOldStandard (1.75em);
+        text-align: center;
+    }
+
+    h4 {
+        @include description(#777);
+        padding: 0em 2em;
+    }
+
+    span {
+        color: #BEAD8E;
+        font-size: 2em;
+        font-family: 'Archivo';
+        display: inline-block; 
+    }
+
+    p {
+        color: #BEAD8E;
+        font-family: 'Archivo';
+        font-weight: 700;
+        display: inline-block;
+    }
+
+   }
+}
