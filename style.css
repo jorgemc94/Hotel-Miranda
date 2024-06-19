@@ -113,8 +113,6 @@ body {
   padding-top: 3em;
   background-image: url("../assets/bg-footer.png");
   background-repeat: no-repeat;
-}
-.footer__background {
   width: 100%;
   height: fit-content;
   background-color: rgba(255, 255, 255, 0.98);
@@ -216,11 +214,12 @@ body {
   line-height: 1.5em;
   font-size: 0.7em;
 }
-.footer__copy {
+
+.copy {
   width: 100%;
   background-color: #F8F8F8;
 }
-.footer__copy__text {
+.copy__text {
   padding: 1.375em;
   color: #222;
   font-family: "Roboto";
