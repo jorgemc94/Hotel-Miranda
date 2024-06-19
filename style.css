@@ -20,6 +20,7 @@ body {
   position: fixed;
   background-color: #FFF;
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2901960784);
+  z-index: 99;
 }
 .header__nav__menu {
   display: inline-block;
@@ -109,11 +110,12 @@ body {
 }
 
 .footer {
-  background-image: url("../assets/bg.png");
+  background-image: url("assets/bg.png");
   padding-top: 3em;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  width: 100%;
 }
 .footer__header {
   padding-left: 1.375em;
@@ -245,8 +247,6 @@ body {
   color: #FFF;
   font-size: 3.5em;
   font-weight: 400;
-  line-height: 3.75em;
-  letter-spacing: -0.1125em;
   line-height: normal;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
@@ -262,6 +262,7 @@ body {
   line-height: 0.951875em;
   letter-spacing: 0.175em;
   color: #FFF;
+  cursor: pointer;
   margin-bottom: 0.8em;
 }
 .banner__buttonTransparent {
@@ -275,6 +276,7 @@ body {
   line-height: 0.951875em;
   letter-spacing: 0.175em;
   color: #FFF;
+  cursor: pointer;
   margin-top: 0.8em;
 }
 
@@ -313,6 +315,7 @@ body {
   line-height: 0.951875em;
   letter-spacing: 0.175em;
   color: #FFF;
+  cursor: pointer;
   margin-top: 1em;
 }
 
@@ -335,8 +338,6 @@ body {
   color: #111;
   font-size: 3.5em;
   font-weight: 400;
-  line-height: 3.75em;
-  letter-spacing: -0.1125em;
   text-align: center;
   letter-spacing: -1.2px;
   padding-bottom: 0.5em;
@@ -360,6 +361,7 @@ body {
   line-height: 0.951875em;
   letter-spacing: 0.175em;
   color: #FFF;
+  cursor: pointer;
   margin-bottom: 0.8em;
   margin-bottom: 2em;
 }
@@ -395,8 +397,6 @@ body {
   color: #111;
   font-size: 1.875em;
   font-weight: 400;
-  line-height: 3.75em;
-  letter-spacing: -0.1125em;
   text-align: center;
   padding: 0.5em 0em;
 }
@@ -436,8 +436,6 @@ body {
   color: #111;
   font-size: 3.5em;
   font-weight: 400;
-  line-height: 3.75em;
-  letter-spacing: -0.1125em;
   text-align: center;
   letter-spacing: -1.2px;
   padding-bottom: 0.5em;
@@ -531,8 +529,6 @@ body {
   color: #FFF;
   font-size: 3.5em;
   font-weight: 400;
-  line-height: 3.75em;
-  letter-spacing: -0.1125em;
   letter-spacing: -1.2px;
   padding-bottom: 0.5em;
 }
@@ -559,6 +555,7 @@ body {
   line-height: 0.951875em;
   letter-spacing: 0.175em;
   color: #FFF;
+  cursor: pointer;
 }
 
 .facts {

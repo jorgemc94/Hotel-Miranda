@@ -2,11 +2,12 @@
 @import './mixins.scss';
 
 .footer {
-    background-image: url("../assets/bg.png");
+    background-image: url("assets/bg.png");
     padding-top: 3em;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    width: 100%;
 
     &__header {
         padding-left: 1.375em;
