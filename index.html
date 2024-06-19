@@ -11,6 +11,7 @@
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script src="scripts/navbar.js" defer></script>
         <script src="scripts/swiper.js" defer></script>
     </head>
@@ -124,8 +125,9 @@
                         </article> 
                     </div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next swiper-button-next--rooms"></div>
+                <div class="swiper-button-prev swiper-button-prev--rooms"></div>
+
             </div>
         </section>
         <section class="video">
@@ -191,6 +193,65 @@
                 </div>
                 <div class="swiper-pagination"></div>
               </div>
+        </section>
+        <section class="menu">
+            <div class="menu__header">
+                <h4 class="menu__header__subtitle">MENU</h4>
+                <img class="menu__header__icon" src="./assets/iconmenu.svg" alt="iconmenu" />
+            </div>
+            <h1 class="menu__title"> Our Foods Menu</h1>
+            <div class="swiper swiper--menu">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <article class="content">
+                            <img src="assets/huevo_frito_bacon.jpeg" alt="bacon" class="content__img"/>
+                            <div>
+                                <h1>Eggs & Bacon</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                        </article>
+                        <article class="content">
+                            <img src="assets/teaocoffee.jpg" alt="teaocoffee" class="content__img"/>
+                            <div>
+                                <h1>Tea or Coffee</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                        </article>
+                        <article class="content">
+                            <img src="assets/chia.jpg" alt="chia" class="content__img"/>
+                            <div>
+                                <h1>Chia Oatmeal</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="content">
+                            <img src="assets/FruitParfait.jpg" alt="Fruit Parfait" class="content__img"/>
+                            <div>
+                                <h1>Fruit Parfait</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                        </article>
+                        <article class="content">
+                            <img src="assets/mermelade.jpg" alt="mermelade" class="content__img"/>
+                            <div>
+                                <h1>Marmalade Selection</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                        </article>
+                        <article class="content">
+                            <img src="assets/cheese.jpg" alt="cheese" class="content__img"/>
+                            <div>
+                                <h1>Cheese Plate</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="swiper-button-next swiper-button-next--menu"></div>
+                <div class="swiper-button-prev swiper-button-prev--menu"></div>
+            </div>
         </section>
         <section class="facts">
             <article class="facts__content">
@@ -293,5 +354,4 @@
             </div>
         </footer>
     </body>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </html>

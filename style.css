@@ -498,7 +498,15 @@ body {
   height: 3em;
   color: #FFF;
   background-color: #BDAC8D;
+}
+.swiper .swiper-button-prev--rooms, .swiper .swiper-button-next--rooms {
   transform: translateY(-170%);
+}
+.swiper .swiper-button-prev--menu, .swiper .swiper-button-next--menu {
+  transform: translateY(420%);
+}
+.swiper .swiper-button-prev--menu {
+  transform: translate(400%, 420%);
 }
 .swiper .swiper-button-prev::after,
 .swiper .swiper-button-next::after {
@@ -667,6 +675,65 @@ body {
   font-weight: 400;
   line-height: 1.5em;
   padding-right: 2.5em;
+}
+
+.menu {
+  width: 100%;
+  padding: 2.5em 1.375em;
+}
+.menu__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-bottom: 1.5em;
+}
+.menu__header__subtitle {
+  color: #777;
+  font-family: "Archivo";
+  font-size: 0.8125em;
+  font-weight: 700;
+  line-height: 1.125em;
+  letter-spacing: 0.175em;
+}
+.menu__header__icon {
+  width: 7.15625em;
+  height: 7.15625em;
+}
+.menu__title {
+  font-family: "Old Standard TT";
+  color: #222;
+  font-size: 3.5em;
+  font-weight: 400;
+  padding-bottom: 0.5em;
+}
+
+.swiper-wrapper {
+  width: 100%;
+  padding-bottom: 2.5em;
+}
+.swiper-wrapper .content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.swiper-wrapper .content__img {
+  width: 7.5em;
+  height: 7.5em;
+  margin-right: 1em;
+}
+.swiper-wrapper .content h1 {
+  font-family: "Old Standard TT";
+  color: #222;
+  font-size: 1.5em;
+  font-weight: 400;
+  letter-spacing: -0.72px;
+  padding-bottom: 0.5em;
+}
+.swiper-wrapper .content p {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 /*# sourceMappingURL=style.css.map */
