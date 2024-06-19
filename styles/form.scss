@@ -1,0 +1,30 @@
+
+@import './mixins.scss';
+
+.form {
+    background-color: #222;
+    padding: 2.5em 1.375em;
+
+    &__text {
+        @include textRoboto(#FFF);
+    }
+
+    &__input {
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #BEAD8E;
+        color: #686868;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 0.875em;
+        line-height: 1.025625;
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    }
+
+    &__button {
+        @include button(15.625em, #BEAD8E, none);
+        margin-top: 1em;
+    }
+}

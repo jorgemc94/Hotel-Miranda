@@ -1,0 +1,35 @@
+
+@import './mixins.scss';
+
+.swiper {
+    width: 100%;
+
+    &--rooms {
+        height: auto;
+
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        width: 3em;
+        height: 3em;
+        color: #FFF;
+        background-color: #BDAC8D;
+        transform: translateY(-170%);
+    }
+
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        font-size: 1em;
+    }
+    .swiper-button-disabled {
+        background-color: #FFF;
+        color: #111;
+        font-weight: 700;
+    }
+
+    &-pagination-bullet {
+        background-color:  #BDAC8D !important;
+    }
+
+   
+}
