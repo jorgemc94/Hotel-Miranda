@@ -27,3 +27,11 @@ const swiperHomeRoom = new Swiper(".swiper--rooms", {
     },
   });
 
+  const swiperCard = new Swiper(".swiper--card", {
+    spaceBetween: 30,
+    effect: "fade",
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });

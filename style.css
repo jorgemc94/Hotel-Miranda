@@ -724,16 +724,19 @@ body {
 .swiper-wrapper .content h1 {
   font-family: "Old Standard TT";
   color: #222;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 400;
   letter-spacing: -0.72px;
   padding-bottom: 0.5em;
 }
 .swiper-wrapper .content p {
   font-family: "Roboto";
-  font-size: 14px;
+  font-size: 0.875em;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 2em;
+}
+.swiper-wrapper--card {
+  padding-top: 2em;
 }
 
 /*# sourceMappingURL=style.css.map */
