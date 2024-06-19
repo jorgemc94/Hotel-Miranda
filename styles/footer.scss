@@ -1,0 +1,111 @@
+
+@import './mixins.scss';
+
+.footer {
+    padding-top: 3em;
+    background-image: url('../assets/bg-footer.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.98);
+
+    &__header {
+        padding-left: 1.375em;
+        padding-right: 1.375em;
+        &__logo {
+            width: 15.319175em;
+            height: 5em;
+        }
+        &__text {
+            @include description(#777);
+            padding: 1.5em 0em;
+        }
+
+        &__icons {
+            
+            img {
+                margin-right: 1em;
+            }
+        }
+    }
+
+    &__services {
+        padding-left: 1.375em;
+        padding-right: 1.375em;
+        margin-top: 1.5em;
+        &__title {
+            @include subtitleOldStandard(2em);
+            padding-bottom: 0.5em;
+        }
+
+        &__content {
+            display: flex;
+            justify-content: flex-start;
+
+            ul {
+                @include textRoboto(#777);
+                font-weight: 400;
+                list-style: '+';
+                padding-left: 0.5em;
+                padding-right: 1em;
+
+                li {
+                    padding-left: 0.5em;
+                    padding-bottom: 0.5em;
+                }
+            }
+        }
+
+    }
+
+    &__contact {
+        margin-top: 1.5em;
+        padding-left: 1.375em;
+        padding-right: 1.375em;
+
+        &__title {
+            @include subtitleOldStandard(2em);
+            padding-bottom: 0.5em;
+        }
+
+        &__content {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            padding-bottom: 2em;
+            &__image {
+                display: block;
+                img {
+                    width: 2.5em;
+                    height: 2.5em;
+                }
+            }
+            
+            &__text {
+                display: inline-block;
+                padding-left: 1.5em;
+
+                &__title {
+                    display: block;
+                    @include subtitleOldStandard(1em);
+                }
+
+                &__description {
+                    @include description(#777);
+                    font-size: 0.7em;
+                }
+            }
+        }
+    }
+    
+}
+
+.copy {
+    width: 100%;
+    background-color: #F8F8F8;
+
+    &__text {
+        padding: 1.375em;
+        @include textRoboto(#222);
+    }
+}

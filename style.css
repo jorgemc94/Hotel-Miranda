@@ -586,7 +586,7 @@ body {
   font-family: "Roboto";
   font-size: 3.75em;
   font-weight: 700;
-  color: #FFF;
+  color: #FFFFFF;
 }
 .facts__content__figures__plus {
   display: inline-block;
@@ -605,4 +605,5 @@ body {
   font-size: 1em;
   color: #999;
 }
+
 /*# sourceMappingURL=style.css.map */
