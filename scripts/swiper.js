@@ -19,3 +19,11 @@ const swiperHomeRoom = new Swiper(".swiper--rooms", {
       el: ".swiper-pagination",
     },
   });
+
+  const swiperHomeMenu = new Swiper(".swiper--menu", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
