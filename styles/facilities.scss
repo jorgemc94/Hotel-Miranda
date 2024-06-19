@@ -1,0 +1,50 @@
+
+@import '../styles/mixins.scss';
+
+.facilities {
+    width: 100%;
+    padding: 0em 1.375em;
+
+    &__subtitle {
+        @include subtitleArchivo(#777);
+        padding-bottom: 1.5em;
+        padding-top: 2.5em;
+        text-align: center;
+    }
+
+    &__title {
+        @include title(#111, 3.5em);
+        text-align: center;
+        letter-spacing: -1.2px;
+        padding-bottom: 0.5em;
+    }
+}
+
+.swiper-slide {
+    width: 100%;
+    padding-bottom: 2em;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__icon {
+            width: 4.375em;
+            height: 4.3750em;
+            bottom: 0
+        }
+
+        &__number {
+            @include number (#2222220A);
+        }
+    }
+
+    &__title {
+        @include title(#222, 1.875em);
+    }
+
+    &__description {
+        @include description(#777);
+        padding-right: 2.5em;
+    }
+}

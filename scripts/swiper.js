@@ -13,3 +13,9 @@ const swiperHomeRoom = new Swiper(".swiper--rooms", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+  const swiperHomeFacilities = new Swiper(".swiper--facilities", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
