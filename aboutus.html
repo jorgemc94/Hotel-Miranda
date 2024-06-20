@@ -9,7 +9,10 @@
         <link href='https://fonts.googleapis.com/css?family=Archivo' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Old Standard TT' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script src="scripts/navbar.js" defer></script>
+        <script src="scripts/swiper.js" defer></script>
     </head>
     <body>
         <header class="header">
@@ -81,6 +84,63 @@
             <h1 class="restaurant__title">Get Restaurant Facilities & Many Other More</h1>
             <p class="restaurant__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem por incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
             <button type="button" class="restaurant__button">Take a Tour</button>
+        </section>
+        <section class="aboutFacilities">
+            <h4 class="aboutFacilities__subtitle">FACILITIES</h4>
+            <h1 class="aboutFacilities__title">Core Features</h1>
+            <div class="swiper swiper--facilities">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide--black">
+                        <div class="swiper-slide__content">
+                            <img class="swiper-slide__content__icon" src="assets/stars.png" alt="stars" />
+                            <h2  class="swiper-slide__content__number swiper-slide__content__number--black">01</h2>
+                        </div>
+                        <h1  class="swiper-slide__title  swiper-slide__title--black">Have High Rating</h1>
+                        <p  class="swiper-slide__description  swiper-slide__description--black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div> 
+                    <div class="swiper-slide swiper-slide--black">
+                        <div class="swiper-slide__content">
+                            <img class="swiper-slide__content__icon" src="assets/hours.svg" alt="hours" />
+                            <h2 class="swiper-slide__content__number swiper-slide__content__number--black">02</h2>
+                        </div>
+                        <h1 class="swiper-slide__title swiper-slide__title--black">Quiet Hours</h1>
+                        <p class="swiper-slide__description swiper-slide__description--black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+                    <div class="swiper-slide swiper-slide--black">
+                        <div class="swiper-slide__content">
+                            <img class="swiper-slide__content__icon" src="assets/ubication.svg" alt="ubication" />
+                            <h2 class="swiper-slide__content__number swiper-slide__content__number--black">03</h2>
+                        </div class="swiper-slide__content">
+                        <h1 class="swiper-slide__title swiper-slide__title--black">Best Locations</h1>
+                        <p class="swiper-slide__description swiper-slide__description--black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+                    <div class="swiper-slide swiper-slide--black">
+                        <div class="swiper-slide__content">
+                            <img class="swiper-slide__content__icon" src="assets/cancelation.svg" alt="cancelation" />
+                            <h2 class="swiper-slide__content__number swiper-slide__content__number--black">04</h2>
+                        </div>
+                        <h1 class="swiper-slide__title swiper-slide__title--black">Free Cancellation</h1>
+                        <p class="swiper-slide__description swiper-slide__description--black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+                    <div class="swiper-slide swiper-slide--black">
+                        <div class="swiper-slide__content">
+                            <img class="swiper-slide__content__icon" src="assets/payment.svg" alt="payment" />
+                            <h2 class="swiper-slide__content__number swiper-slide__content__number--black">05</h2>
+                        </div>
+                        <h1 class="swiper-slide__title swiper-slide__title--black">Payment Options</h1>
+                        <p class="swiper-slide__description swiper-slide__description--black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+                    <div class="swiper-slide swiper-slide--black">
+                        <div class="swiper-slide__content">
+                            <img class="swiper-slide__content__icon" src="assets/offers.svg" alt="offers" />
+                            <h2 class="swiper-slide__content__number swiper-slide__content__number--black">06</h2>
+                        </div>
+                        <h1 class="swiper-slide__title swiper-slide__title--black">Special Offers</h1>
+                        <p class="swiper-slide__description swiper-slide__description--black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
         </section>
         <footer class="footer">
             <div class="footer__header">

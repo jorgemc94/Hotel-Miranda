@@ -646,6 +646,10 @@ body {
   width: 100%;
   padding-bottom: 2em;
 }
+.swiper-slide--black {
+  background-color: #292929;
+  padding-left: 1.375em;
+}
 .swiper-slide__content {
   display: flex;
   justify-content: space-between;
@@ -661,11 +665,18 @@ body {
   font-size: 7.5em;
   font-weight: 700;
 }
+.swiper-slide__content__number--black {
+  color: #222;
+}
 .swiper-slide__title {
   font-family: "Old Standard TT";
   color: #222;
   font-size: 1.875em;
   font-weight: 400;
+  padding-top: 0.5em;
+}
+.swiper-slide__title--black {
+  color: #FFF;
 }
 .swiper-slide__description {
   color: #777;
@@ -674,6 +685,9 @@ body {
   font-weight: 400;
   line-height: 1.5em;
   padding-right: 2.5em;
+}
+.swiper-slide__description--black {
+  color: #FFF;
 }
 
 .menu {
@@ -976,6 +990,29 @@ body {
   letter-spacing: 0.175em;
   color: #FFF;
   cursor: pointer;
+}
+
+.aboutFacilities {
+  background-color: #222;
+  padding: 2em 1.375em;
+  width: 100%;
+}
+.aboutFacilities__subtitle {
+  color: #FFF;
+  font-family: "Archivo";
+  font-size: 0.8125em;
+  font-weight: 700;
+  line-height: 1.125em;
+  letter-spacing: 0.175em;
+  text-align: center;
+}
+.aboutFacilities__title {
+  font-family: "Old Standard TT";
+  color: #FFF;
+  font-size: 2.5em;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 0.5em;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,19 @@
+
+@import './mixins.scss';
+
+.aboutFacilities {
+    background-color: #222;
+    padding: 2em 1.375em;
+    width: 100%;
+
+    &__subtitle {
+        @include subtitleArchivo (#FFF);
+        text-align: center;
+    }
+
+    &__title {
+        @include title (#FFF, 2.5em);
+        text-align: center;
+        padding-top: 0.5em;
+    }
+}
