@@ -878,5 +878,18 @@ body {
 .formContact__content__input--textarea {
   height: 8em;
 }
+.formContact__send {
+  width: 13.5em;
+  background-color: #BEAD8E;
+  border: none;
+  height: 3.75em;
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 0.875em;
+  line-height: 0.951875em;
+  letter-spacing: 0.175em;
+  color: #FFF;
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=style.css.map */
