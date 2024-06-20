@@ -23,6 +23,11 @@
 .swiper-slide {
     width: 100%;
     padding-bottom: 2em;
+
+    &--black {
+        background-color: #292929;
+        padding-left: 1.375em;
+    }
     &__content {
         display: flex;
         justify-content: space-between;
@@ -35,15 +40,28 @@
 
         &__number {
             @include number (#2222220A);
+
+            &--black {
+                color: #222;
+            }
         }
     }
 
     &__title {
         @include title(#222, 1.875em);
+        padding-top: 0.5em;
+
+        &--black {
+            color: #FFF;
+        }
     }
 
     &__description {
         @include description(#777);
         padding-right: 2.5em;
+
+        &--black {
+            color: #FFF;
+        }
     }
 }
