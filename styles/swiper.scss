@@ -20,7 +20,7 @@
         background-color: #BDAC8D;
         
         &--rooms{
-            transform: translateY(-170%);
+            transform: translateY(-220%);
         }
 
         &--menu {
@@ -44,9 +44,25 @@
         font-weight: 700;
     }
 
-    &-pagination-bullet {
+    .swiper-pagination-bullet {
         background-color:  #BDAC8D !important;
     }
 
-   
+    .swiper-pagination-custom-bullet {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        text-align: center;
+        margin: 0 5px;
+        background: #FFF;
+        color: #111;
+        font-size: 1.5em;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+
+    .swiper-pagination-custom-bullet-active {
+        background: #BEAD8E;
+        color: #FFF;
+    }
 }
