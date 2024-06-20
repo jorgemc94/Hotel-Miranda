@@ -26,12 +26,11 @@
     &__content {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: end;
 
         &__icon {
             width: 4.375em;
             height: 4.3750em;
-            bottom: 0
         }
 
         &__number {
