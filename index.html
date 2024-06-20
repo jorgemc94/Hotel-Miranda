@@ -11,6 +11,7 @@
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script src="scripts/navbar.js" defer></script>
         <script src="scripts/swiper.js" defer></script>
     </head>
@@ -124,8 +125,9 @@
                         </article> 
                     </div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next swiper-button-next--rooms"></div>
+                <div class="swiper-button-prev swiper-button-prev--rooms"></div>
+
             </div>
         </section>
         <section class="video">
@@ -134,6 +136,142 @@
             <p class="video__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat you have to understand this.</p>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Bu3Doe45lcU?si=rIg7_7zQ_E1CZcPt&amp;clip=Ugkxow2nTVqo59DJkHr6u3XrlVG9q_gKldk3&amp;clipt=EKjDARj4yQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video__video"></iframe>
             <button type="submit" class="video__button">BOOK NOW</button>
+        </section>
+        <section class="facilities">
+            <h4 class="facilities__subtitle">FACILITIES</h4>
+            <h1 class="facilities__title">Core Features</h1>
+            <div class="swiper swiper--facilities">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__content">
+                            <img class="swiper-slide__content__icon" src="assets/stars.png" alt="stars" />
+                            <h2  class="swiper-slide__content__number">01</h2>
+                        </div>
+                        <h1  class="swiper-slide__title">Have High Rating</h1>
+                        <p  class="swiper-slide__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div> 
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__content">
+                            <img class="swiper-slide__content__icon" src="assets/hours.svg" alt="hours" />
+                            <h2 class="swiper-slide__content__number">02</h2>
+                        </div>
+                        <h1 class="swiper-slide__title">Quiet Hours</h1>
+                        <p class="swiper-slide__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__content">
+                            <img class="swiper-slide__content__icon" src="assets/ubication.svg" alt="ubication" />
+                            <h2 class="swiper-slide__content__number">03</h2>
+                        </div class="swiper-slide__content">
+                        <h1 class="swiper-slide__title">Best Locations</h1>
+                        <p class="swiper-slide__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__content">
+                            <img class="swiper-slide__content__icon" src="assets/cancelation.svg" alt="cancelation" />
+                            <h2 class="swiper-slide__content__number">04</h2>
+                        </div>
+                        <h1 class="swiper-slide__title">Free Cancellation</h1>
+                        <p class="swiper-slide__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__content">
+                            <img class="swiper-slide__content__icon" src="assets/payment.svg" alt="payment" />
+                            <h2 class="swiper-slide__content__number">05</h2>
+                        </div>
+                        <h1 class="swiper-slide__title">Payment Options</h1>
+                        <p class="swiper-slide__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__content">
+                            <img class="swiper-slide__content__icon" src="assets/offers.svg" alt="offers" />
+                            <h2 class="swiper-slide__content__number">06</h2>
+                        </div>
+                        <h1 class="swiper-slide__title">Special Offers</h1>
+                        <p class="swiper-slide__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </section>
+        <section class="menu">
+            <div class="menu__header">
+                <h4 class="menu__header__subtitle">MENU</h4>
+                <img class="menu__header__icon" src="./assets/iconmenu.svg" alt="iconmenu" />
+            </div>
+            <h1 class="menu__title"> Our Foods Menu</h1>
+            <div class="swiper swiper--menu">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <article class="content">
+                            <img src="assets/huevo_frito_bacon.jpeg" alt="bacon" class="content__img"/>
+                            <div>
+                                <h1>Eggs & Bacon</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                        </article>
+                        <article class="content">
+                            <img src="assets/teaocoffee.jpg" alt="teaocoffee" class="content__img"/>
+                            <div>
+                                <h1>Tea or Coffee</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                        </article>
+                        <article class="content">
+                            <img src="assets/chia.jpg" alt="chia" class="content__img"/>
+                            <div>
+                                <h1>Chia Oatmeal</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="content">
+                            <img src="assets/FruitParfait.jpg" alt="Fruit Parfait" class="content__img"/>
+                            <div>
+                                <h1>Fruit Parfait</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                        </article>
+                        <article class="content">
+                            <img src="assets/mermelade.jpg" alt="mermelade" class="content__img"/>
+                            <div>
+                                <h1>Marmalade Selection</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                        </article>
+                        <article class="content">
+                            <img src="assets/cheese.jpg" alt="cheese" class="content__img"/>
+                            <div>
+                                <h1>Cheese Plate</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="swiper-button-next swiper-button-next--menu"></div>
+                <div class="swiper-button-prev swiper-button-prev--menu"></div>
+            </div>
+            <div class="swiper swiper--card">
+                <div class="swiper-wrapper swiper-wrapper--card">
+                    <div class="swiper-slide">
+                        <img src="assets/desayuno.jpg" alt="desayuno" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/merienda.jpg" alt="merienda" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/parrillada.jpg" alt="parrillada" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/espetos.jpg" alt="espetos" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/tiramisu.jpg" alt="tiramisu" />
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
         </section>
         <section class="facts">
             <article class="facts__content">
@@ -170,77 +308,70 @@
             </article>
         </section>
         <footer class="footer">
-            <div class="footer__background">
-                <section class="footer__header">
-                    <img class="footer__header__logo" src="./assets/Logo.jpg" alt="logo">
-                    <p class="footer__header__text">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed doing eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat ion ullamco laboris nisi.</p>
-                    <div class="footer__header__icons">
-                        <img src="./assets/facebook.svg" alt="facebook"/>
-                        <img src="./assets/twitter.svg" alt="twitter" />
-                        <img src="./assets/be.svg" alt="be" />
-                        <img src="./assets/linkedin.svg" alt="linkedin" />
-                        <img src="./assets/youtube.svg" alt="youtube" />
-                    </div>
-                </section>
-                <section class="footer__services">
-                    <p class="footer__services__title">Services</p>
-                    <div class="footer__services__content">
-                        <ul>
-                            <li>Resturent & Bar</li>
-                            <li>Swimming Pool</li>
-                            <li>Wellness & Spa</li>
-                            <li>Restaurant</li>
-                            <li>Conference Room</li>
-                            <li>Coctail Party House</li>
-                        </ul>
-                        <ul>
-                            <li>Gamming Zone</li>
-                            <li>Marriege Party</li>
-                            <li>Party Planning</li>
-                            <li>Tour Consultancy</li>
-                        </ul>
-                    </div>
-                </section>
-                <section class="footer__contact">
-                    <p class="footer__contact__title">Contact Us.</p>
-                    <article class="footer__contact__content">
-                        <span class="footer__contact__content__image">
-                            <img src="assets/phone.png" alt="phone" />
-                        </span>
-                        <h2 class="footer__contact__content__text">
-                            <span class="footer__contact__content__text__title">Phone Number</span>
-                            <span class="footer__contact__content__text__description">608410012</span>
-                        </h2>
-                    </article>
-                    <article class="footer__contact__content">
-                        <span class="footer__contact__content__image">
-                            <img src="assets/email.png" alt="email" />
-                        </span>
-                        <h2 class="footer__contact__content__text">
-                            <span class="footer__contact__content__text__title">Email</span>
-                            <span class="footer__contact__content__text__description">jorgemc1294@gmail.com</span>
-                        </h2>
-                    </article>
-                    <article class="footer__contact__content">
-                        <span class="footer__contact__content__image">
-                            <img src="assets/location.png" alt="location" />
-                        </span>
-                        <h2 class="footer__contact__content__text">
-                            <span class="footer__contact__content__text__title">Locations</span>
-                            <span class="footer__contact__content__text__description">C. Francisco Pizarro, 16, 10930, Navas del Madroño, Cáceres</span>
-                        </h2>
-                    </article>
-                </section>
-                <section class="footer__copy">
-                    <p class=" footer__copy__text">Copyright By@Example - 2024</p>
-                    <p class=" footer__copy__text">Terms of Use | Privacy Enviroment Policy</p>
-                </section>
+            <div class="footer__header">
+                <img class="footer__header__logo" src="./assets/Logo.jpg" alt="logo">
+                <p class="footer__header__text">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed doing eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat ion ullamco laboris nisi.</p>
+                <div class="footer__header__icons">
+                    <img src="./assets/facebook.svg" alt="facebook"/>
+                    <img src="./assets/twitter.svg" alt="twitter" />
+                    <img src="./assets/be.svg" alt="be" />
+                    <img src="./assets/linkedin.svg" alt="linkedin" />
+                    <img src="./assets/youtube.svg" alt="youtube" />
+                </div>
             </div>
-        </section>
-        <footer class="copy">
-            <p class="copy__text">Copyright By@Example - 2024</p>
-            <p class="copy__text">Terms of Use | Privacy Enviroment Policy</p>
+            <div class="footer__services">
+                <p class="footer__services__title">Services</p>
+                <div class="footer__services__content">
+                    <ul>
+                        <li>Resturent & Bar</li>
+                        <li>Swimming Pool</li>
+                        <li>Wellness & Spa</li>
+                        <li>Restaurant</li>
+                        <li>Conference Room</li>
+                        <li>Coctail Party House</li>
+                    </ul>
+                    <ul>
+                        <li>Gamming Zone</li>
+                        <li>Marriege Party</li>
+                        <li>Party Planning</li>
+                        <li>Tour Consultancy</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__contact">
+                <p class="footer__contact__title">Contact Us.</p>
+                <article class="footer__contact__content">
+                    <span class="footer__contact__content__image">
+                        <img src="assets/phone.png" alt="phone" />
+                    </span>
+                    <h2 class="footer__contact__content__text">
+                        <span class="footer__contact__content__text__title">Phone Number</span>
+                        <span class="footer__contact__content__text__description">608410012</span>
+                    </h2>
+                </article>
+                <article class="footer__contact__content">
+                    <span class="footer__contact__content__image">
+                        <img src="assets/email.png" alt="email" />
+                    </span>
+                    <h2 class="footer__contact__content__text">
+                        <span class="footer__contact__content__text__title">Email</span>
+                        <span class="footer__contact__content__text__description">jorgemc1294@gmail.com</span>
+                    </h2>
+                </article>
+                <article class="footer__contact__content">
+                    <span class="footer__contact__content__image">
+                        <img src="assets/location.png" alt="location" />
+                    </span>
+                    <h2 class="footer__contact__content__text">
+                        <span class="footer__contact__content__text__title">Locations</span>
+                        <span class="footer__contact__content__text__description">C. Francisco Pizarro, 16, 10930, Navas del Madroño, Cáceres</span>
+                    </h2>
+                </article>
+            </div>
+            <div class="copy">
+                <p class="copy__text">Copyright By@Example - 2024</p>
+                <p class="copy__text">Terms of Use | Privacy Enviroment Policy</p>
+            </div>
         </footer>
     </body>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </html>

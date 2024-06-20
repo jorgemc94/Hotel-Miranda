@@ -46,10 +46,10 @@
 }
 
 @mixin number ($color) {
+    color: $color;
     font-family: 'Archivo';
     font-size: 7.5em;
     font-weight: 700;
-    line-height: 8.125em;
 }
 
 @mixin subtitleOldStandard($size) {

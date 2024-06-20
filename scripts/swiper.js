@@ -13,3 +13,25 @@ const swiperHomeRoom = new Swiper(".swiper--rooms", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+  const swiperHomeFacilities = new Swiper(".swiper--facilities", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+
+  const swiperHomeMenu = new Swiper(".swiper--menu", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+  const swiperCard = new Swiper(".swiper--card", {
+    spaceBetween: 30,
+    effect: "fade",
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });

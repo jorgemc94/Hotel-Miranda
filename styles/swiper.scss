@@ -9,12 +9,29 @@
 
     }
 
+    &--facilities {
+        height: unset;
+    }
+
     .swiper-button-prev, .swiper-button-next {
         width: 3em;
         height: 3em;
         color: #FFF;
         background-color: #BDAC8D;
-        transform: translateY(-170%);
+        
+        &--rooms{
+            transform: translateY(-170%);
+        }
+
+        &--menu {
+            transform: translateY(420%);
+        }
+    }
+
+    .swiper-button-prev {
+        &--menu {
+            transform: translate(400%, 420%);
+        }
     }
 
     .swiper-button-prev::after,
