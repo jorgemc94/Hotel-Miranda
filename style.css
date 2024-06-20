@@ -933,4 +933,49 @@ body {
   padding-top: 0.5em;
 }
 
+.restaurant {
+  width: 100%;
+  padding: 2.5em 1.375em;
+}
+.restaurant img {
+  width: 100%;
+  height: auto;
+}
+.restaurant__subtitle {
+  color: #777;
+  font-family: "Archivo";
+  font-size: 0.8125em;
+  font-weight: 700;
+  line-height: 1.125em;
+  letter-spacing: 0.175em;
+  padding: 1.5em 0em;
+}
+.restaurant__title {
+  font-family: "Old Standard TT";
+  color: #222;
+  font-size: 2.5em;
+  font-weight: 400;
+}
+.restaurant__description {
+  color: #777;
+  font-family: "Archivo";
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 1.5em;
+  padding: 1.5em 0em;
+}
+.restaurant__button {
+  width: 13.5em;
+  background-color: #BEAD8E;
+  border: none;
+  height: 3.75em;
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 0.875em;
+  line-height: 0.951875em;
+  letter-spacing: 0.175em;
+  color: #FFF;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.css.map */
