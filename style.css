@@ -738,4 +738,57 @@ body {
   padding-top: 2em;
 }
 
+.contact {
+  margin-top: 1em;
+  padding: 0em 1.375em;
+  background-color: #333;
+}
+.contact__subtitle {
+  color: #FFF;
+  font-family: "Archivo";
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 1.5em;
+  width: 50%;
+  padding-top: 3em;
+}
+.contact__title {
+  font-family: "Old Standard TT";
+  color: #FFF;
+  font-size: 3.5em;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.contact__indice {
+  display: flex;
+  justify-content: flex-end;
+}
+.contact__indice__color {
+  background-color: #FFF;
+  color: #BDAC8D;
+  font-family: "Archivo";
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.088125em;
+  letter-spacing: -0.03em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+.contact__indice__black {
+  background-color: #FFF;
+  color: #222;
+  font-family: "Archivo";
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.088125em;
+  letter-spacing: -0.03em;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
 /*# sourceMappingURL=style.css.map */
