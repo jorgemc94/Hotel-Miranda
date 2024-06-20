@@ -421,6 +421,9 @@ body {
   padding: 0em 1.375em;
   margin-top: 2.5em;
 }
+.rooms--black {
+  background-color: #222;
+}
 .rooms__subtitle {
   color: #777;
   font-family: "Archivo";
@@ -430,6 +433,10 @@ body {
   letter-spacing: 0.175em;
   padding-bottom: 1.5em;
   text-align: center;
+  padding-top: 3em;
+}
+.rooms__subtitle--color {
+  color: #BEAD8E;
 }
 .rooms__title {
   font-family: "Old Standard TT";
@@ -439,6 +446,9 @@ body {
   text-align: center;
   letter-spacing: -1.2px;
   padding-bottom: 0.5em;
+}
+.rooms__title--color {
+  color: #FFF;
 }
 .rooms__icons {
   width: 70%;
@@ -453,11 +463,12 @@ body {
   width: 1.5em;
   height: 1.5em;
 }
-.rooms article {
+
+.swiper-slide article {
   text-align: center;
   box-shadow: 0px 8px 16px 0px rgba(138, 138, 138, 0.0509803922);
 }
-.rooms article h2 {
+.swiper-slide article h2 {
   font-size: 1.75em;
   font-family: "Old Standard TT";
   color: #222;
@@ -465,21 +476,22 @@ body {
   line-height: 1.5em;
   text-align: center;
 }
-.rooms article h4 {
+.swiper-slide article h4 {
   color: #777;
   font-family: "Archivo";
   font-size: 0.875em;
   font-weight: 400;
   line-height: 1.5em;
   padding: 0em 2em;
+  padding-bottom: 1em;
 }
-.rooms article span {
+.swiper-slide article span {
   color: #BEAD8E;
   font-size: 2em;
   font-family: "Archivo";
   display: inline-block;
 }
-.rooms article p {
+.swiper-slide article p {
   color: #BEAD8E;
   font-family: "Archivo";
   font-weight: 700;
@@ -1125,7 +1137,6 @@ body {
   font-size: 1em;
   font-weight: 700;
   line-height: 17.41px;
-  padding-bottom: 1em;
 }
 .pageRoom__article__text__price--color {
   color: #BEAD8E;
@@ -1237,10 +1248,6 @@ body {
   letter-spacing: 0.175em;
   color: #FFF;
   cursor: pointer;
-}
-
-article {
-  background-color: #FFF;
 }
 
 /*# sourceMappingURL=style.css.map */
