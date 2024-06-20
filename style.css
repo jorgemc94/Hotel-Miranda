@@ -978,4 +978,27 @@ body {
   cursor: pointer;
 }
 
+.aboutFacilities {
+  background-color: #222;
+  padding: 2em 1.375em;
+  width: 100%;
+}
+.aboutFacilities__subtitle {
+  color: #FFF;
+  font-family: "Archivo";
+  font-size: 0.8125em;
+  font-weight: 700;
+  line-height: 1.125em;
+  letter-spacing: 0.175em;
+  text-align: center;
+}
+.aboutFacilities__title {
+  font-family: "Old Standard TT";
+  color: #FFF;
+  font-size: 2.5em;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
 /*# sourceMappingURL=style.css.map */
