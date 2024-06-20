@@ -35,3 +35,16 @@ const swiperHomeRoom = new Swiper(".swiper--rooms", {
       clickable: true,
     },
   });
+
+  var swiperCounter = new Swiper(".swiper--counter", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
