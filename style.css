@@ -791,4 +791,60 @@ body {
   padding-bottom: 0.5em;
 }
 
+.information {
+  width: 100%;
+  padding: 2.5em 1.375em;
+}
+.information__details {
+  width: 100%;
+  height: 11.2rem;
+  position: relative;
+  max-width: 25rem;
+}
+.information__details__content {
+  padding-top: 2em;
+  display: flex;
+  align-items: center;
+}
+.information__details__content img {
+  display: inline-block;
+  width: 2.5em;
+  height: 2.5em;
+  margin-right: 1em;
+}
+.information__details__content__text {
+  display: flex;
+  flex-direction: column;
+  padding-right: 1.5em;
+}
+.information__details__content__text__title {
+  font-family: "Old Standard TT";
+  color: #222;
+  font-size: 1.5em;
+  font-weight: 400;
+  padding-bottom: 0.5em;
+}
+.information__details__content__text__description {
+  font-family: "Roboto";
+  font-size: 0.875em;
+  font-weight: 400;
+  color: #222;
+}
+.information__details__number {
+  color: #f8f8f8;
+  position: absolute;
+  right: 0.5rem;
+  top: -1.25rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 12.5rem;
+  font-weight: 700;
+  line-height: 15.6rem;
+  letter-spacing: -0.3rem;
+  z-index: -1;
+}
+.information__map {
+  width: 100%;
+  padding-top: 2em;
+}
+
 /*# sourceMappingURL=style.css.map */
