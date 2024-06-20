@@ -1137,7 +1137,6 @@ body {
   font-size: 1em;
   font-weight: 700;
   line-height: 17.41px;
-  padding-bottom: 1em;
 }
 .pageRoom__article__text__price--color {
   color: #BEAD8E;
@@ -1249,10 +1248,6 @@ body {
   letter-spacing: 0.175em;
   color: #FFF;
   cursor: pointer;
-}
-
-article {
-  background-color: #FFF;
 }
 
 /*# sourceMappingURL=style.css.map */
