@@ -502,7 +502,7 @@ body {
   background-color: #BDAC8D;
 }
 .swiper .swiper-button-prev--rooms, .swiper .swiper-button-next--rooms {
-  transform: translateY(-220%);
+  transform: translateY(-170%);
 }
 .swiper .swiper-button-prev--menu, .swiper .swiper-button-next--menu {
   transform: translateY(420%);
@@ -519,24 +519,8 @@ body {
   color: #111;
   font-weight: 700;
 }
-.swiper .swiper-pagination-bullet {
+.swiper-pagination-bullet {
   background-color: #BDAC8D !important;
-}
-.swiper .swiper-pagination-custom-bullet {
-  display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
-  text-align: center;
-  margin: 0 5px;
-  background: #FFF;
-  color: #111;
-  font-size: 1.5em;
-  vertical-align: middle;
-  cursor: pointer;
-}
-.swiper .swiper-pagination-custom-bullet-active {
-  background: #BEAD8E;
-  color: #FFF;
 }
 
 .video {
