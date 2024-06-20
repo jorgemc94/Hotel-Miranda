@@ -1,4 +1,6 @@
 
+@import './mixins.scss';
+
 .formContact {
     width: 100%;
     padding: 2.5em 1.375em;
@@ -33,5 +35,9 @@
                 height: 8em;
             }
         }
+    }
+
+    &__send {
+        @include button (13.5em,#BEAD8E, none);
     }
 }
