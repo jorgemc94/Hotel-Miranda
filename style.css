@@ -447,6 +447,7 @@ body {
   grid-template-columns: repeat(6, auto);
   align-content: space-around;
   margin: 0 auto;
+  box-shadow: 0px 8px 16px 0px rgba(138, 138, 138, 0.0509803922);
 }
 .rooms__icons__img {
   width: 1.5em;
@@ -454,6 +455,7 @@ body {
 }
 .rooms article {
   text-align: center;
+  box-shadow: 0px 8px 16px 0px rgba(138, 138, 138, 0.0509803922);
 }
 .rooms article h2 {
   font-size: 1.75em;
@@ -500,7 +502,7 @@ body {
   background-color: #BDAC8D;
 }
 .swiper .swiper-button-prev--rooms, .swiper .swiper-button-next--rooms {
-  transform: translateY(-170%);
+  transform: translateY(-220%);
 }
 .swiper .swiper-button-prev--menu, .swiper .swiper-button-next--menu {
   transform: translateY(420%);
@@ -517,8 +519,24 @@ body {
   color: #111;
   font-weight: 700;
 }
-.swiper-pagination-bullet {
+.swiper .swiper-pagination-bullet {
   background-color: #BDAC8D !important;
+}
+.swiper .swiper-pagination-custom-bullet {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  text-align: center;
+  margin: 0 5px;
+  background: #FFF;
+  color: #111;
+  font-size: 1.5em;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.swiper .swiper-pagination-custom-bullet-active {
+  background: #BEAD8E;
+  color: #FFF;
 }
 
 .video {
@@ -1070,6 +1088,52 @@ body {
 .counter__content__article__arrow {
   width: 2em;
   height: 2em;
+}
+
+.pageRoom {
+  width: 100%;
+  padding: 2em 1.375em;
+}
+.pageRoom__article {
+  text-align: center;
+  box-shadow: 0px 8px 16px 0px rgba(138, 138, 138, 0.0509803922);
+  padding-bottom: 2em;
+}
+.pageRoom__article__title {
+  font-size: 1.75em;
+  font-family: "Old Standard TT";
+  color: #222;
+  font-weight: 400;
+  line-height: 1.5em;
+  padding-top: 0.5em;
+}
+.pageRoom__article__description {
+  color: #777;
+  font-family: "Archivo";
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 1.5em;
+  padding: 0.5em 2em;
+}
+.pageRoom__article__text {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+.pageRoom__article__text__price {
+  font-family: "Archivo";
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 17.41px;
+}
+.pageRoom__article__text__price--color {
+  color: #BEAD8E;
+}
+.pageRoom__article__text__price--grey {
+  color: #BDBDBD;
+}
+.pageRoom img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
